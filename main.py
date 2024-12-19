@@ -19,6 +19,7 @@ def open_command_prompt():
 if __name__ == "__main__":
     open_command_prompt()
     time.sleep(0.4)
+    print()
     while True:
         macro_typing()
         open_command_prompt()
